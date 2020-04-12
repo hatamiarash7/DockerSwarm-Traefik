@@ -19,3 +19,8 @@ Set your domain for Traefik dashboard and metrics in `stack.yml`. The default va
 ```bash
 docker stack deploy -c stack.yml Traefik
 ```
+
+## Access
+
+- Traefik dashboard : [http://traefik.localhost](http://traefik.localhost)
+- Traefik prometheus metrics : [http://traefik.localhost/metrics](http://traefik.localhost/metrics)
